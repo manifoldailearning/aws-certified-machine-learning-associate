@@ -1,0 +1,101 @@
+CustomerID,ProductType,Rating,Total_Ratings,PaymentMode
+10471,coates,1 start,8736,Creditcard
+10472,dresses ,2 star,8547,Ewallet
+10473,,2 star,9833,Prepaid Card
+10474,dresses ,2star,7591,Directdeposit
+10475,pantas,1 start,5131,
+10476,Coats/Jackets,2 star,5347,Direct Deposit
+10477,coates,5 star,9406,Direct Deposit
+10478,Jeans,,8554,Direct Deposit
+10479,pantas,4 star,9630,Direct Deposit
+10480,Pants,1 start,6914,Prepaid Card
+10481,dresses ,2star,7750,
+10482,pantas,5 star,7816,Mobile Payment
+10483,Cardigan,4 star,7021,Cash
+10484,Coats/Jackets,,5024,Mobile Payment
+10485,dresses ,1 start,9030,Mobile
+10486,coates,1 start,6701,Direct Deposit
+10487,Pants,2star,5783,Credit Card
+10488,Dresses,5 star,7659,Ewallet
+10489,Shirts/Tops,4 star,7273,Direct Deposit
+10490,Shirts/Tops,,9296,
+10491,Coats/Jackets,1 start,9714,Prepaid Card
+10492,Dresses,4 star,9170,Directdeposit
+10493,Pants,4 star,6943,Ewallet
+10494,dresses ,2 star,5668,Credit Card
+10495,Shirts/Tops,4 star,5077,Ewallet
+10496,Hats,4 star,6594,Prepaid Card
+10497,dresses ,1 start,7605,
+10498,Coats/Jackets,3 star,9297,Direct Deposit
+10499,Pants,4 star,7160,Cash
+10500,Jeans,1 start,9410,Direct Deposit
+10501,pantas,4 star,6569,Creditcard
+10502,,3 star,8823,Ewallet
+10503,,4 star,8117,Prepaid Card
+10504,,1 start,5037,Ewallet
+10505,Shirts/Tops,3 star,5757,Prepaid Card
+10506,dresses ,2star,7858,Ewallet
+10507,dresses ,,5848,Direct Deposit
+10508,Cardigan,4 star,9566,Mobile
+10509,Jeans,,7352,Creditcard
+10510,dresses ,1 start,7287,Prepaid Card
+10511,Dresses,4 star,6195,Mobile
+10512,pantas,2star,6416,Creditcard
+10513,Coats/Jackets,1 start,6535,Mobile Payment
+10514,dresses ,5 star,5567,Credit Card
+10515,Hats,4 star,8129,
+10516,Jeans,3 star,7033,
+10517,Hats,5 star,7532,Credit Card
+10518,Jeans,2star,7285,Creditcard
+10519,Jeans,2star,7678,Ewallet
+10520,Hats,4 star,5620,Ewallet
+10521,Shirts/Tops,4 star,7082,Directdeposit
+10522,coates,1 start,9686,Credit Card
+10523,Coats/Jackets,1 start,6530,Mobile Payment
+10524,Dresses,3 star,6654,Direct Deposit
+10525,Cardigan,5 star,6081,Direct Deposit
+10526,Jeans,2 star,9482,Direct Deposit
+10527,Dresses,1 start,8880,Creditcard
+10528,Shirts/Tops,1 start,7484,Creditcard
+10529,coates,2 star,5498,Creditcard
+10530,Cardigan,4 star,6930,Cash
+10531,Pants,1 start,8535,Direct Deposit
+10532,Jeans,2star,8399,Credit Card
+10533,coates,5 star,8349,Prepaid Card
+10534,Shirts/Tops,4 star,8046,Creditcard
+10535,Cardigan,5 star,5080,Cash
+10536,Jeans,,6878,Prepaid Card
+10537,Coats/Jackets,2star,9832,Cash
+10538,Cardigan,2 star,9925,Direct Deposit
+10539,pantas,4 star,7374,Credit Card
+10540,dresses ,1 start,9570,Directdeposit
+10541,Shirts/Tops,5 star,9015,Creditcard
+10542,Hats,2star,9157,Cash
+10543,Coats/Jackets,4 star,7100,Mobile
+10544,Cardigan,1 start,7547,Ewallet
+10545,Shirts/Tops,2star,8819,Credit Card
+10546,coates,4 star,6841,Ewallet
+10547,Hats,3 star,6040,Direct Deposit
+10548,dresses ,3 star,5485,Creditcard
+10549,pantas,3 star,8745,Prepaid Card
+10550,Dresses,5 star,9365,Credit Card
+10551,Hats,2star,8734,Directdeposit
+10552,Shirts/Tops,5 star,9965,Cash
+10553,Shirts/Tops,3 star,8175,Credit Card
+10554,coates,4 star,9303,Direct Deposit
+10555,coates,1 start,8399,Prepaid Card
+10556,dresses ,1 start,7502,Prepaid Card
+10557,coates,1 start,6838,Ewallet
+10558,coates,5 star,7007,Credit Card
+10558,coates,5 star,7007,Credit Card
+10558,coates,5 star,7007,Credit Card
+10561,dresses ,1 start,7607,Directdeposit
+10562,coates,2star,5858,Creditcard
+10563,Shirts/Tops,3 star,7066,Credit Card
+10564,Dresses,2star,9142,Creditcard
+10565,coates,1 start,6328,Cash
+10566,Coats/Jackets,2star,6090,Prepaid Card
+10567,coates,5 star,9433,Mobile
+10568,pantas,3 star,7354,Credit Card
+10569,Pants,5 star,5200,Directdeposit
+10570,Jeans,1 start,7807,Credit Card

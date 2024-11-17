@@ -1,0 +1,10 @@
+{
+    "Id": "awsml",
+    "Status": "Enabled",
+    "Tierings": [
+        {
+            "Days": 90,
+            "AccessTier": "ARCHIVE_ACCESS"
+        }
+    ]
+}

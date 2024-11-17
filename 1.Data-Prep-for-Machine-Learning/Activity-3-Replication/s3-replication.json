@@ -1,0 +1,30 @@
+{
+	"Rules": [
+    	{
+        	"Status": "Enabled",
+        	"Filter": {
+            	"Prefix": ""
+        	},
+        	"Destination": {
+            	"Bucket": "arn:aws:s3:::awsml-dest-31tzcx",
+            	"Metrics": {
+                	"Status": "Enabled",
+                	"EventThreshold": {
+                    	"Minutes": 15
+                	}
+            	},
+            	"ReplicationTime": {
+                	"Status": "Enabled",
+                	"Time": {
+                    	"Minutes": 15
+                	}
+            	}
+        	},
+		    "DeleteMarkerReplication": {
+                "Status": "Disabled"
+            },
+        	"Priority": 1
+    	}
+	],
+	"Role": "arn:aws:iam::866824485776:role/AWSMLS3Role"
+}

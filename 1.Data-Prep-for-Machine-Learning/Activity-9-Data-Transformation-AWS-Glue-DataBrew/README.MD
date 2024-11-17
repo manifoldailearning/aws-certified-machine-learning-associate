@@ -1,0 +1,1 @@
+# Follow the steps on Video, and ensure to clear the resources once completed

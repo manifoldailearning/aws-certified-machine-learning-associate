@@ -1,0 +1,67 @@
+{
+    "Comment": "An example of the Amazon States Language using different states",
+    "StartAt": "AplusB",
+    "States": {
+      "AplusB": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:us-east-1:757712384777:function:adding_A_and_B",
+        "Next": "CheckAplusB"
+      },
+      "CheckAplusB": {
+        "Type": "Choice",
+        "Choices": [
+          {
+            "Variable": "$.sumAB",
+            "NumericGreaterThanEquals": 10,
+            "Next": "PrintResults"
+          },
+          {
+            "Variable": "$.sumAB",
+            "NumericLessThan": 10,
+            "Next": "IncrementAB"
+          }
+        ]
+      },
+      "PrintResults": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:us-east-1:757712384777:function:print_sum",
+        "End": true
+      },
+      "IncrementAB": {
+        "Type": "Parallel",
+        "Next": "FormatInputs",
+        "Branches": [
+          {
+            "StartAt": "IncrementA",
+            "States": {
+              "IncrementA": {
+                "Type": "Task",
+                "Resource": "arn:aws:lambda:us-east-1:757712384777:function:Increment_A",
+                "End": true
+              }
+            }
+          },
+          {
+            "StartAt": "IncrementB",
+            "States": {
+              "IncrementB": {
+                "Type": "Task",
+                "Resource": "arn:aws:lambda:us-east-1:757712384777:function:Increment_B",
+                "End": true
+              }
+            }
+          }
+        ]
+      },
+      "FormatInputs": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:us-east-1:757712384777:function:format_inputs",
+        "Next": "Wait_10_Seconds"
+      },
+      "Wait_10_Seconds": {
+        "Type": "Wait",
+        "Seconds": 10,
+        "Next": "AplusB"
+      }
+    }
+  }

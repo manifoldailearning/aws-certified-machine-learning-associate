@@ -1,0 +1,15 @@
+{
+    "Rules": [
+        {
+            "ID": "Move all objects to Standard Infrequently Access",
+            "Prefix": "",
+            "Status": "Enabled",
+            "Transitions": [
+                {
+                    "Days": 45,                   
+                    "StorageClass": "STANDARD_IA"
+                }
+            ]
+        }
+    ]
+}
